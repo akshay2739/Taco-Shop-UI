@@ -1,0 +1,81 @@
+.card{
+    background-color: #ffc600;
+    width:250px
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;  
+    margin-top: 50px; 
+    font-weight: 900;
+}
+
+.menu p{
+    padding: 5px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: large;
+}
+
+.taco-body{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 40px;
+    font-weight: 900;
+}
+
+.taco{
+    background-image: url("./assets/taco.jpg");
+    min-height: 400px;
+    width:68%;
+    background-position: bottom left;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:flex-start;
+}
+
+.taco-text{
+    margin-left: 50px;
+}
+
+.taco-header{
+    background-color: #ffc600;
+    font-size: 30px;
+    font-weight: 900;
+    padding: 5px;
+}
+
+.taco-footer{
+    background-color: #ffc600;
+    margin-top: 20px;
+    padding: 5px;
+    font-weight: 900;
+}
+.taco-price{
+    width: 30%;
+    min-height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.taco-price-card{
+    background-color: #ffc600;
+    min-height: 190px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.price{
+    font-size: 70px;
+    font-weight: 300;
+}
+
+.price-text{
+    font-size: 30px;
+}
